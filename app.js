@@ -69,7 +69,7 @@ async function start() {
         employees.push(manager);
 
         // Getting # of Engineers + pushing all the info into the array
-        const numOfEng = await inquirer.prompt([{ type: "list" , message: "How many engineer's are there?", name: "number", choices: [1,2,3,4]}])
+        const numOfEng = await inquirer.prompt({ type: "list" , message: "How many engineer's are there?", name: "number", choices: [1,2,3,4]})
         for (var i = 0; i < numOfEng.number; i++){
              const engInfo = await inquirer.prompt(engineerQuestions)
              const engineer = new Engineer(engInfo.name, engInfo.id, engInfo.email, engInfo.github)
@@ -77,7 +77,7 @@ async function start() {
          };
 
       // Getting # of Interns + pushing all the info into the array
-      const numofInt = await inquirer.prompt([{ type: "list", message: "How many intern's are there?", name: "number", choices: [1,2,3,4]}])
+      const numofInt = await inquirer.prompt({ type: "list", message: "How many intern's are there?", name: "number", choices: [1,2,3,4]})
       for (var y = 0; y <numofInt.number; y++){
           const intInfo = await inquirer.prompt(internQuestions)
           const intern = new Intern(intInfo.name, intInfo.id, intInfo.email, intInfo.school)
