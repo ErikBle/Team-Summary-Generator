@@ -10,6 +10,7 @@ An Inquirer app that generates team summaries.
 * JQuery
 * Node.js
 * Inquirer
+* Jest 
 
 ## Instructions:
 Use "npm install" to get the proper packages.
