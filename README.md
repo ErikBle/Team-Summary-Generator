@@ -18,6 +18,4 @@ Then run "node app.js" to start the app.
 
 ## Example:
 
-<img src="https://imgur.com/6b5quXu.jpg">
-
 <img src="https://imgur.com/tVtDaIx.jpg">
