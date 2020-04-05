@@ -65,7 +65,7 @@ async function start() {
 
         // Getting manager info into a const, then pushing that into the array
         const managerInfo = await inquirer.prompt(managerQuestions);
-        const manager = new Manager (managerInfo.name, managerInfo.id, managerInfo.email, managerInfo.offnum);
+        const manager = new Manager (managerInfo.name, managerInfo.id, managerInfo.email, managerInfo.officeNumber);
         employees.push(manager);
 
         // Getting # of Engineers + pushing all the info into the array
