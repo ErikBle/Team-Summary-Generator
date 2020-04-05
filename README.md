@@ -14,10 +14,10 @@ A node.js app that generates team summaries.
 ## Instructions:
 Use "npm install" to get the proper packages.
 <br>
-Then run "node index.js" to start the app.
+Then run "node app.js" to start the app.
 
 ## Example:
 
-<img src="">
+<img src="https://imgur.com/6b5quXu.jpg">
 
-<img src=">
+<img src="https://imgur.com/tVtDaIx.jpg">
