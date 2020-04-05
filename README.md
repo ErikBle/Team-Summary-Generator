@@ -17,7 +17,6 @@ Use "npm install" to get the proper packages.
 Then run "node app.js" to start the app.
 
 ## Example:
-
-<img src="https://imgur.com/6b5quXu.jpg">
+<img src="https://imgur.com/3DZI281.jpg">
 
 <img src="https://imgur.com/tVtDaIx.jpg">
