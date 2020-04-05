@@ -1,7 +1,7 @@
 # Team-Summary-Generator
 
 ## General Info:
-A node.js app that generates team summaries.
+An Inquirer app that generates team summaries.
 
 ## Programs/Languages/Libraries used:
 * Html
